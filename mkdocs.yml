@@ -1,1 +1,57 @@
-site_name: My Docs
+site_name: Manual do Usuário - Mapa da Cultura
+
+nav:
+  - Início: index.md
+  - Primeiros Passos:
+    - Cadastro e Login: primeiros-passos/cadastro-login.md
+    - Conhecendo a Interface: primeiros-passos/interface.md
+  - Oportunidades:
+    - Como Criar uma Oportunidade: oportunidades/criar-oportunidade.md
+    - Gerenciar Oportunidades: oportunidades/gerenciar.md
+    - Inscrições e Avaliações: oportunidades/inscricoes.md
+  - Eventos:
+    - Como Criar um Evento: eventos/criar-evento.md
+    - Gerenciar Eventos: eventos/gerenciar.md
+    - Divulgação e Promoção: eventos/divulgacao.md
+  - Pontos de Cultura:
+    - Cadastrar Espaço Cultural: espacos/cadastrar.md
+    - Gerenciar Informações: espacos/gerenciar.md
+  - Agentes Culturais:
+    - Perfil do Agente: agentes/perfil.md
+    - Rede e Conexões: agentes/rede.md
+  - Projetos:
+    - Criar e Gerenciar Projetos: projetos/criar-gerenciar.md
+    - Colaboração: projetos/colaboracao.md
+  - FAQ e Soluções:
+    - Perguntas Frequentes: faq/perguntas-frequentes.md
+    - Problemas Comuns: faq/problemas-comuns.md
+    - Contato e Suporte: faq/suporte.md
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MinC-Mapa-da-Cultura
