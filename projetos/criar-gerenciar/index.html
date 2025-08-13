@@ -1,0 +1,2535 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../agentes/rede/">
+      
+      
+        <link rel="next" href="../colaboracao/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Criar e Gerenciar Projetos - Manual do Usuário - Mapa da Cultura</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#criar-e-gerenciar-projetos" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Manual do Usuário - Mapa da Cultura" class="md-header__button md-logo" aria-label="Manual do Usuário - Mapa da Cultura" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Manual do Usuário - Mapa da Cultura
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Criar e Gerenciar Projetos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="amber"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../primeiros-passos/cadastro-login/" class="md-tabs__link">
+          
+  
+  
+  Primeiros Passos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../oportunidades/criar-oportunidade/" class="md-tabs__link">
+          
+  
+  
+  Oportunidades
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../eventos/criar-evento/" class="md-tabs__link">
+          
+  
+  
+  Eventos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../espacos/cadastrar/" class="md-tabs__link">
+          
+  
+  
+  Pontos de Cultura
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../agentes/perfil/" class="md-tabs__link">
+          
+  
+  
+  Agentes Culturais
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Projetos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/perguntas-frequentes/" class="md-tabs__link">
+          
+  
+  
+  FAQ e Soluções
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Manual do Usuário - Mapa da Cultura" class="md-nav__button md-logo" aria-label="Manual do Usuário - Mapa da Cultura" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Manual do Usuário - Mapa da Cultura
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Primeiros Passos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Primeiros Passos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../primeiros-passos/cadastro-login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cadastro e Login
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../primeiros-passos/interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conhecendo a Interface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Oportunidades
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Oportunidades
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oportunidades/criar-oportunidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Como Criar uma Oportunidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oportunidades/gerenciar.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gerenciar Oportunidades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oportunidades/inscricoes.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inscrições e Avaliações
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Eventos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Eventos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eventos/criar-evento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Como Criar um Evento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eventos/gerenciar.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gerenciar Eventos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eventos/divulgacao.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Divulgação e Promoção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pontos de Cultura
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pontos de Cultura
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../espacos/cadastrar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cadastrar Espaço Cultural
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../espacos/gerenciar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gerenciar Informações
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agentes Culturais
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agentes Culturais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agentes/perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil do Agente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agentes/rede/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rede e Conexões
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projetos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Projetos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Criar e Gerenciar Projetos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Criar e Gerenciar Projetos
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-sao-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 O que são Projetos?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 O que são Projetos?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplos-de-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplos de Projetos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beneficios-de-criar-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Benefícios de Criar Projetos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎯 Benefícios de Criar Projetos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#planejamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planejamento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-criar-um-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Como Criar um Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Como Criar um Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-acessar-a-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Acessar a Funcionalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-informacoes-basicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Informações Básicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-classificacao-e-categoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Classificação e Categoria
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detalhamento-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Detalhamento do Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Detalhamento do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-completa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descrição Completa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronograma-e-periodo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma e Período
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equipe-e-colaboradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      👥 Equipe e Colaboradores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Equipe e Colaboradores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcerias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parcerias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localizacao-e-espacos" class="md-nav__link">
+    <span class="md-ellipsis">
+      📍 Localização e Espaços
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📍 Localização e Espaços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#localizacao-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Localização Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#espacos-envolvidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Espaços Envolvidos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vinculando-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎭 Vinculando Eventos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎭 Vinculando Eventos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eventos-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eventos do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-evento-vinculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Evento Vinculados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-da-programacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização da Programação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orcamento-e-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      💰 Orçamento e Recursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💰 Orçamento e Recursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informacoes-financeiras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informações Financeiras
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categorias-de-custo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorias de Custo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acompanhamento-e-metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Acompanhamento e Métricas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Acompanhamento e Métricas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indicadores-de-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicadores de Resultado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-de-divulgacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Material de Divulgação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎨 Material de Divulgação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#identidade-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identidade Visual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#materiais-necessarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materiais Necessários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-na-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upload na Plataforma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestao-durante-o-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Gestão Durante o Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Gestão Durante o Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monitoramento-diario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoramento Diário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comunicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comunicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avaliacao-e-legado" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Avaliação e Legado
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📈 Avaliação e Legado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relatorio-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relatório Final
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arquivo-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquivo do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precisa-de-ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      📞 Precisa de Ajuda?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colaboracao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Colaboração
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ e Soluções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ e Soluções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/perguntas-frequentes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perguntas Frequentes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/problemas-comuns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Problemas Comuns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/suporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contato e Suporte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-sao-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 O que são Projetos?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 O que são Projetos?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplos-de-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplos de Projetos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beneficios-de-criar-projetos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Benefícios de Criar Projetos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎯 Benefícios de Criar Projetos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#planejamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planejamento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-criar-um-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Como Criar um Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Como Criar um Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-acessar-a-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Acessar a Funcionalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-informacoes-basicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Informações Básicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-classificacao-e-categoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Classificação e Categoria
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detalhamento-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Detalhamento do Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Detalhamento do Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-completa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descrição Completa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronograma-e-periodo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma e Período
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equipe-e-colaboradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      👥 Equipe e Colaboradores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Equipe e Colaboradores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcerias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parcerias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#localizacao-e-espacos" class="md-nav__link">
+    <span class="md-ellipsis">
+      📍 Localização e Espaços
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📍 Localização e Espaços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#localizacao-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Localização Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#espacos-envolvidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Espaços Envolvidos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vinculando-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎭 Vinculando Eventos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎭 Vinculando Eventos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eventos-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eventos do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-evento-vinculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Evento Vinculados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-da-programacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização da Programação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orcamento-e-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      💰 Orçamento e Recursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💰 Orçamento e Recursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informacoes-financeiras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informações Financeiras
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categorias-de-custo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorias de Custo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acompanhamento-e-metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Acompanhamento e Métricas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Acompanhamento e Métricas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indicadores-de-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicadores de Resultado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-de-divulgacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Material de Divulgação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎨 Material de Divulgação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#identidade-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identidade Visual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#materiais-necessarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materiais Necessários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-na-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upload na Plataforma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestao-durante-o-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Gestão Durante o Projeto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Gestão Durante o Projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monitoramento-diario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoramento Diário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comunicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comunicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avaliacao-e-legado" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Avaliação e Legado
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📈 Avaliação e Legado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relatorio-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relatório Final
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arquivo-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquivo do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precisa-de-ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      📞 Precisa de Ajuda?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="criar-e-gerenciar-projetos">Criar e Gerenciar Projetos</h1>
+<p>Aprenda a organizar suas atividades culturais em projetos no Mapa da Cultura.</p>
+<h2 id="o-que-sao-projetos">📊 O que são Projetos?</h2>
+<p><strong>Projetos</strong> no Mapa da Cultura são iniciativas que agregam <strong>eventos continuados</strong>, <strong>atividades relacionadas</strong> ou um <strong>grupo de eventos</strong> que fazem parte de uma proposta maior.</p>
+<h3 id="exemplos-de-projetos">Exemplos de Projetos:</h3>
+<ul>
+<li><strong>Festival anual</strong> com múltiplas apresentações</li>
+<li><strong>Temporada teatral</strong> com várias sessões</li>
+<li><strong>Curso de formação</strong> com diferentes módulos</li>
+<li><strong>Circuito de apresentações</strong> em várias cidades</li>
+<li><strong>Projeto social</strong> com atividades regulares</li>
+<li><strong>Residência artística</strong> com etapas diversas</li>
+</ul>
+<h2 id="beneficios-de-criar-projetos">🎯 Benefícios de Criar Projetos</h2>
+<h3 id="organizacao">Organização</h3>
+<ul>
+<li><strong>Centraliza informações</strong> de atividades relacionadas</li>
+<li><strong>Facilita gestão</strong> de eventos complexos</li>
+<li><strong>Melhora acompanhamento</strong> de resultados</li>
+<li><strong>Simplifica relatórios</strong> e prestação de contas</li>
+</ul>
+<h3 id="visibilidade">Visibilidade</h3>
+<ul>
+<li><strong>Maior destaque</strong> na plataforma</li>
+<li><strong>Contexto ampliado</strong> para eventos isolados</li>
+<li><strong>Facilita compreensão</strong> da proposta artística</li>
+<li><strong>Atrai parceiros</strong> e financiadores</li>
+</ul>
+<h3 id="planejamento">Planejamento</h3>
+<ul>
+<li><strong>Visão macro</strong> das atividades</li>
+<li><strong>Cronograma integrado</strong></li>
+<li><strong>Gestão de recursos</strong> unificada</li>
+<li><strong>Acompanhamento de metas</strong></li>
+</ul>
+<h2 id="como-criar-um-projeto">🚀 Como Criar um Projeto</h2>
+<h3 id="1-acessar-a-funcionalidade">1. Acessar a Funcionalidade</h3>
+<p><strong>Via Painel de Controle:</strong>
+1. Faça login na plataforma
+2. Vá para <strong>"Painel de Controle"</strong>
+3. Clique no <strong>"+"</strong> na seção <strong>Projetos</strong></p>
+<p><strong>Via Menu Direto:</strong>
+1. Clique em sua foto de perfil
+2. Selecione <strong>"Meus Projetos"</strong>
+3. Clique em <strong>"Adicionar novo projeto"</strong></p>
+<h3 id="2-informacoes-basicas">2. Informações Básicas</h3>
+<p><strong>Nome do Projeto</strong></p>
+<pre><code>Escolha um nome claro e memorável
+Exemplo: &quot;Festival de Inverno de Campos do Jordão 2024&quot;
+</code></pre>
+<p><strong>Subtítulo</strong> (opcional)</p>
+<pre><code>Complemento explicativo
+Exemplo: &quot;30 anos celebrando a música clássica na serra&quot;
+</code></pre>
+<p><strong>Descrição Curta</strong> (máx. 400 caracteres)</p>
+<pre><code>Resumo para listagens e compartilhamentos
+Exemplo: &quot;Festival de música clássica com 30 concertos, workshops e masterclasses durante o mês de julho, reunindo artistas nacionais e internacionais.&quot;
+</code></pre>
+<h3 id="3-classificacao-e-categoria">3. Classificação e Categoria</h3>
+<p><strong>Tipo de Projeto:</strong>
+- Cultural/Artístico
+- Educativo/Formativo
+- Social/Comunitário
+- Pesquisa/Acadêmico
+- Comercial/Empresarial</p>
+<p><strong>Linguagem Principal:</strong>
+- Música
+- Teatro
+- Dança
+- Cinema e Audiovisual
+- Artes Visuais
+- Literatura
+- Múltiplas linguagens</p>
+<p><strong>Tags:</strong>
+Adicione palavras-chave relevantes:</p>
+<pre><code>festival, música clássica, campos do jordão, inverno, concertos
+</code></pre>
+<h2 id="detalhamento-do-projeto">📝 Detalhamento do Projeto</h2>
+<h3 id="descricao-completa">Descrição Completa</h3>
+<p><strong>Estrutura sugerida:</strong></p>
+<p><strong>1. Apresentação:</strong></p>
+<pre><code>O Festival de Inverno é um evento anual que acontece há 30 anos em Campos do Jordão, reunindo os melhores intérpretes de música clássica do Brasil e do mundo.
+</code></pre>
+<p><strong>2. Objetivos:</strong></p>
+<pre><code>- Promover a música clássica para novos públicos
+- Formar jovens músicos através de masterclasses
+- Movimentar o turismo cultural da região
+- Preservar e difundir o repertório clássico brasileiro
+</code></pre>
+<p><strong>3. Metodologia:</strong></p>
+<pre><code>O festival combina concertos profissionais com atividades educativas, oferecendo workshops, masterclasses e apresentações didáticas.
+</code></pre>
+<p><strong>4. Público-alvo:</strong></p>
+<pre><code>Amantes da música clássica, estudantes de música, turistas culturais e comunidade local.
+</code></pre>
+<h3 id="cronograma-e-periodo">Cronograma e Período</h3>
+<p><strong>Data de Início:</strong></p>
+<pre><code>Quando o projeto começa efetivamente
+Exemplo: 01/07/2024
+</code></pre>
+<p><strong>Data de Término:</strong></p>
+<pre><code>Quando todas as atividades se encerram
+Exemplo: 31/07/2024
+</code></pre>
+<p><strong>Cronograma Detalhado:</strong></p>
+<pre><code>Semana 1: Concertos de abertura e workshops iniciais
+Semana 2: Masterclasses e recitais
+Semana 3: Apresentações colaborativas
+Semana 4: Concertos de encerramento e premiações
+</code></pre>
+<h2 id="equipe-e-colaboradores">👥 Equipe e Colaboradores</h2>
+<h3 id="organizacao_1">Organização</h3>
+<p><strong>Defina responsabilidades:</strong></p>
+<p><strong>Coordenação Geral:</strong>
+- Nome do responsável
+- Função específica
+- Contato para parcerias</p>
+<p><strong>Direção Artística:</strong>
+- Curadoria do festival
+- Seleção de artistas
+- Programação artística</p>
+<p><strong>Produção Executiva:</strong>
+- Logística geral
+- Gestão de contratos
+- Coordenação técnica</p>
+<h3 id="parcerias">Parcerias</h3>
+<p><strong>Tipos de parceria:</strong>
+- <strong>Realizador:</strong> Quem organiza
+- <strong>Patrocinador:</strong> Apoio financeiro
+- <strong>Apoiador:</strong> Apoio institucional
+- <strong>Parceiro:</strong> Colaboração específica</p>
+<p><strong>Como adicionar:</strong>
+1. Vá para <strong>"Parcerias"</strong>
+2. Clique em <strong>"Adicionar parceiro"</strong>
+3. Busque agente ou espaço cadastrado
+4. Defina tipo de parceria
+5. Adicione descrição da colaboração</p>
+<h2 id="localizacao-e-espacos">📍 Localização e Espaços</h2>
+<h3 id="localizacao-principal">Localização Principal</h3>
+<ul>
+<li><strong>Cidade e Estado</strong> onde acontece</li>
+<li><strong>Região específica</strong> (se aplicável)</li>
+<li><strong>Endereço</strong> (para projetos fixos)</li>
+</ul>
+<h3 id="espacos-envolvidos">Espaços Envolvidos</h3>
+<p><strong>Vincular espaços cadastrados:</strong>
+1. Teatro principal
+2. Salas de ensaio
+3. Locais de workshop
+4. Espaços alternativos</p>
+<p><strong>Para cada espaço, especifique:</strong>
+- Que atividades acontecem lá
+- Datas específicas de uso
+- Configuração necessária</p>
+<h2 id="vinculando-eventos">🎭 Vinculando Eventos</h2>
+<h3 id="eventos-do-projeto">Eventos do Projeto</h3>
+<p><strong>Como vincular:</strong>
+1. <strong>Ao criar evento novo:</strong> Selecione o projeto no formulário
+2. <strong>Evento existente:</strong> Edite e selecione projeto
+3. <strong>Em lote:</strong> Use ferramenta de gestão múltipla</p>
+<h3 id="tipos-de-evento-vinculados">Tipos de Evento Vinculados</h3>
+<ul>
+<li><strong>Principais:</strong> Concertos, espetáculos, mostras</li>
+<li><strong>Complementares:</strong> Workshops, palestras, debates</li>
+<li><strong>Administrativos:</strong> Reuniões, ensaios, montagens</li>
+</ul>
+<h3 id="organizacao-da-programacao">Organização da Programação</h3>
+<pre><code>SEMANA 1
+├── 01/07 - Concerto de Abertura (Teatro Municipal)
+├── 02/07 - Workshop de Cordas (Conservatório)
+├── 03/07 - Masterclass Piano (Auditório FAAP)
+└── 04/07 - Recital Jovens Talentos (Sala Claudio Santoro)
+
+SEMANA 2
+├── 08/07 - Sinfônica Jovem (Teatro Municipal)
+├── 09/07 - Workshop de Regência (Conservatório)
+└── 10/07 - Concerto de Câmara (Igreja do Rosário)
+</code></pre>
+<h2 id="orcamento-e-recursos">💰 Orçamento e Recursos</h2>
+<h3 id="informacoes-financeiras">Informações Financeiras</h3>
+<p><strong>Valor Total do Projeto:</strong></p>
+<pre><code>R$ 500.000,00 (exemplo)
+</code></pre>
+<p><strong>Fontes de Recurso:</strong>
+- Lei de Incentivo à Cultura: 60%
+- Patrocínio privado: 30%
+- Recursos próprios: 10%</p>
+<p><strong>⚠️ Importante:</strong> A plataforma não processa pagamentos, use apenas para informação.</p>
+<h3 id="categorias-de-custo">Categorias de Custo</h3>
+<ul>
+<li><strong>Artistas:</strong> Cachês e ajudas de custo</li>
+<li><strong>Infraestrutura:</strong> Aluguel de espaços e equipamentos</li>
+<li><strong>Logística:</strong> Transporte, hospedagem, alimentação</li>
+<li><strong>Comunicação:</strong> Marketing e divulgação</li>
+<li><strong>Administrativo:</strong> Gestão e impostos</li>
+</ul>
+<h2 id="acompanhamento-e-metricas">📊 Acompanhamento e Métricas</h2>
+<h3 id="indicadores-de-resultado">Indicadores de Resultado</h3>
+<p><strong>Quantitativos:</strong>
+- Número de eventos realizados
+- Total de público atingido
+- Participantes em workshops
+- Artistas envolvidos</p>
+<p><strong>Qualitativos:</strong>
+- Satisfação do público
+- Qualidade artística
+- Impacto na comunidade
+- Repercussão na mídia</p>
+<h3 id="relatorios">Relatórios</h3>
+<p><strong>Dados automáticos da plataforma:</strong>
+- Visualizações dos eventos
+- Inscrições e confirmações
+- Engajamento nas redes
+- Alcance geográfico</p>
+<p><strong>Dados complementares:</strong>
+- Bilheteria (se aplicável)
+- Pesquisas de satisfação
+- Retorno de mídia
+- Impacto econômico local</p>
+<h2 id="material-de-divulgacao">🎨 Material de Divulgação</h2>
+<h3 id="identidade-visual">Identidade Visual</h3>
+<p><strong>Elementos básicos:</strong>
+- <strong>Logo</strong> do projeto
+- <strong>Paleta de cores</strong>
+- <strong>Tipografia</strong> padrão
+- <strong>Padrões visuais</strong></p>
+<h3 id="materiais-necessarios">Materiais Necessários</h3>
+<p><strong>Para impressão:</strong>
+- Cartazes e flyers
+- Programas e catálogos
+- Banners e displays
+- Camisetas e brindes</p>
+<p><strong>Para digital:</strong>
+- Posts para redes sociais
+- Banners para sites
+- E-mail marketing
+- Vídeos promocionais</p>
+<h3 id="upload-na-plataforma">Upload na Plataforma</h3>
+<p><strong>Organize materiais em:</strong>
+- <strong>Galeria principal:</strong> Imagens destacadas
+- <strong>Documentos:</strong> PDFs informativos
+- <strong>Vídeos:</strong> Links para trailers e teasers
+- <strong>Press kit:</strong> Material para imprensa</p>
+<h2 id="gestao-durante-o-projeto">🔄 Gestão Durante o Projeto</h2>
+<h3 id="monitoramento-diario">Monitoramento Diário</h3>
+<ul>
+<li><strong>Atualizar status</strong> dos eventos</li>
+<li><strong>Acompanhar inscrições</strong> e presença</li>
+<li><strong>Registrar atividades</strong> realizadas</li>
+<li><strong>Responder dúvidas</strong> do público</li>
+</ul>
+<h3 id="comunicacao">Comunicação</h3>
+<p><strong>Canais internos:</strong>
+- Grupo da equipe organizadora
+- Comunicação com artistas
+- Contato com espaços
+- Relacionamento com patrocinadores</p>
+<p><strong>Canais externos:</strong>
+- Redes sociais do projeto
+- Site oficial
+- Contato com mídia
+- Atendimento ao público</p>
+<h3 id="documentacao">Documentação</h3>
+<p><strong>Registre sistematicamente:</strong>
+- Fotos de todas as atividades
+- Vídeos das apresentações
+- Entrevistas com participantes
+- Material para relatórios</p>
+<h2 id="avaliacao-e-legado">📈 Avaliação e Legado</h2>
+<h3 id="relatorio-final">Relatório Final</h3>
+<p><strong>Estrutura sugerida:</strong>
+1. <strong>Resumo executivo</strong>
+2. <strong>Objetivos vs. resultados</strong>
+3. <strong>Dados quantitativos</strong>
+4. <strong>Análise qualitativa</strong>
+5. <strong>Desafios enfrentados</strong>
+6. <strong>Lições aprendidas</strong>
+7. <strong>Recomendações futuras</strong></p>
+<h3 id="continuidade">Continuidade</h3>
+<p><strong>Para próximas edições:</strong>
+- Base de dados de contatos
+- Histórico de fornecedores
+- Feedback de participantes
+- Melhores práticas identificadas</p>
+<h3 id="arquivo-do-projeto">Arquivo do Projeto</h3>
+<p><strong>Manter disponível:</strong>
+- Documentos principais
+- Registros fotográficos
+- Material de divulgação
+- Relatórios e avaliações</p>
+<hr />
+<h2 id="precisa-de-ajuda">📞 Precisa de Ajuda?</h2>
+<ul>
+<li><strong>Dúvidas sobre criação</strong>: <a href="../../faq/perguntas-frequentes/">FAQ</a></li>
+<li><strong>Problemas técnicos</strong>: <a href="../../faq/problemas-comuns/">Problemas Comuns</a></li>
+<li><strong>Suporte especializado</strong>: <a href="../../faq/suporte/">Contato</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/MinC-Mapa-da-Cultura" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
